@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace CalcApp
 {
@@ -6,8 +7,8 @@ namespace CalcApp
 	{
 		static void Main()
 		{
-			// See https://aka.ms/new-console-template for more information
-			Console.WriteLine("Hello, World!");
+			double sum = Calc.Sum(Enumerable.Range(1, 10));
+			Console.WriteLine($"sum: {sum}");
 		}
 	}
 }
