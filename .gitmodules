@@ -1,0 +1,3 @@
+[submodule "CalcLib"]
+	path = CalcLib
+	url = git@github.com:yagiey/CalcLib.git
