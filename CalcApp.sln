@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcApp", "CalcApp\CalcApp.csproj", "{1316D408-D304-415D-88F1-9B42707B56FF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcLib", "CalcLib\CalcLib\CalcLib.csproj", "{DBE17B06-36EB-469D-9F81-6585F5727CA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1316D408-D304-415D-88F1-9B42707B56FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1316D408-D304-415D-88F1-9B42707B56FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1316D408-D304-415D-88F1-9B42707B56FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE17B06-36EB-469D-9F81-6585F5727CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE17B06-36EB-469D-9F81-6585F5727CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE17B06-36EB-469D-9F81-6585F5727CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE17B06-36EB-469D-9F81-6585F5727CA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
