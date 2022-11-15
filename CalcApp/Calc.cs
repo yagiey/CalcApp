@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using CalcLib;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace CalcApp
@@ -9,6 +11,15 @@ namespace CalcApp
 		{
 			int s = nums.Aggregate((ac, it) => CalcLib.Operators.Add(ac, it));
 			return s;
+		}
+
+		public static Tuple<double, double> Range(int value, int diff)
+		{
+			if(diff < 0)
+			{
+				diff = -diff;
+			}
+			return Tuple.Create((double)Operators.Sub(value, diff), (double)Operators.Add(value, diff));
 		}
 	}
 }
